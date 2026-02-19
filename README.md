@@ -7,6 +7,40 @@ Includes company-specific exam problems for **Bolt** (ride-hailing) and **Wise**
 
 **Stack:** Java 17+ | Maven | JUnit 5
 
+## Learning Strategy
+
+### Phase 1: Foundation (Week 1-2)
+Start with the highest-priority topics. For each problem:
+1. **Read the problem** — understand input/output, constraints, edge cases.
+2. **Try solving it yourself** for 20-30 min (even pseudocode counts).
+3. **Read the Javadoc** — study the "Key insight" and approach in the code comment.
+4. **Trace through the code** — run the test, add prints, understand each line.
+5. **Re-solve from scratch** — close the file, write the solution yourself.
+6. **Do it again tomorrow** — spaced repetition is key.
+
+**Order:** Arrays → HashMaps → Strings → Sorting → Searching → DP
+
+### Phase 2: Deep Dive (Week 3-4)
+- Learn the **patterns** in `cheatsheet/common-patterns.md`.
+- When you see a new problem, ask: "Which pattern does this match?"
+- Focus on problems you got wrong — keep a "retry list".
+- Time yourself: Easy < 15 min, Medium < 25 min, Hard < 40 min.
+
+### Phase 3: Company Prep (Week 5+)
+- Do the **Bolt** and **Wise** exams under timed conditions.
+- Simulate a real HackerRank test: 60-90 min, no references.
+- After each attempt, read the "HOW TO SOLVE" in the Javadoc.
+- Focus on patterns the company cares about (see each company README).
+
+### Daily Routine
+```
+Morning (30 min):  Review 2 problems from yesterday (spaced repetition)
+Afternoon (1 hr):  Solve 2-3 new problems (try first, then check solution)
+Evening (20 min):  Read cheatsheet patterns, write notes on what you learned
+```
+
+---
+
 ## Project Structure
 ```
 src/main/java/com/prep/
