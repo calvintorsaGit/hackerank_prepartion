@@ -3,10 +3,11 @@
 Structured, topic-wise HackerRank solutions in Java for interview prep.
 Topics are ordered by interview importance (most critical first).
 
+Includes company-specific exam problems for **Bolt** (ride-hailing) and **Wise** (money transfer).
+
 **Stack:** Java 17+ | Maven | JUnit 5
 
 ## Project Structure
-
 ```
 src/main/java/com/prep/
 ├── arrays/               # 1. most asked in interviews
@@ -160,6 +161,40 @@ mvn exec:java -Dexec.mainClass="com.prep.arrays.TwoSum"  # run single solution
 | 3 | [Counter Game](https://www.hackerrank.com/challenges/counter-game) | Medium | -- |
 | 4 | [Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor) | Easy | -- |
 | 5 | [Flipping Bits](https://www.hackerrank.com/challenges/flipping-bits) | Easy | -- |
+---
+
+## Company Exams
+
+Company-specific HackerRank-style problems in `src/main/java/com/prep/exams/`.
+
+### Wise (Money Transfer)
+| # | Problem | Pattern | Difficulty |
+|---|---------|---------|------------|
+| 1 | Currency Converter | BFS / Graph | Medium |
+| 2 | Transaction Validator | String / HashMap | Easy |
+| 3 | Fee Calculator | Tiered Math | Medium |
+| 4 | Rate Limiter | Sliding Window / Queue | Medium |
+| 5 | Balance Tracker | HashMap | Easy |
+
+### Bolt (Ride-Hailing)
+| # | Problem | Pattern | Difficulty |
+|---|---------|---------|------------|
+| 1 | Nearest Driver | Heap / K Closest | Medium |
+| 2 | Surge Pricing | Tiered Math | Easy |
+| 3 | Ride Matching | Greedy / Sort | Medium |
+| 4 | Trip Duration | Dijkstra | Medium |
+| 5 | Fare Calculator | Math / Business Rules | Easy |
+| 6 | Scooter Rebalancing | Greedy / Math | Medium |
+| 7 | Scooter Battery Optimizer | Greedy / Sort | Medium |
+| 8 | Scooter Parking Zones | HashMap / Heap (Top K) | Medium |
+| 9 | Scooter Maintenance Scheduler | Queue Simulation / Heap | Medium |
+| 10 | Scooter Fleet Analyzer | HashMap / Data Aggregation | Easy |
+
+Run company exams:
+```bash
+mvn test -Dtest="com.prep.exams.wise.*"    # Wise only
+mvn test -Dtest="com.prep.exams.bolt.*"    # Bolt only
+```
 
 ---
 

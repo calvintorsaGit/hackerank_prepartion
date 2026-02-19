@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.prep.exams.bolt.ScooterParkingZonesTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.prep.exams.bolt.ScooterParkingZonesTest
