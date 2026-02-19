@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.prep.sorting.CountingInversionsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.prep.sorting.CountingInversionsTest
