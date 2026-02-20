@@ -62,19 +62,22 @@ src/main/java/com/prep/
 
 ## How to Run
 
-```bash
-mvn test                                    # run all tests
-mvn test -Dtest="com.prep.arrays.*"         # run topic tests
-mvn exec:java -Dexec.mainClass="com.prep.arrays.TwoSum"  # run single solution
+```powershell
+mvn test                                        # run all tests
+mvn test "-Dtest=com.prep.arrays.**"            # run topic tests
+mvn test "-Dtest=com.prep.exams.bolt.**"        # run Bolt exam tests
+mvn test "-Dtest=com.prep.exams.wise.**"        # run Wise exam tests
+mvn exec:java "-Dexec.mainClass=com.prep.arrays.TwoSum"  # run single solution
 ```
+> **Note (PowerShell):** Wrap the entire `-D...` in one quoted string, e.g. `"-Dtest=..."`. Otherwise `*` gets expanded by the shell.
 
 ## Problems
 
 ### 1. Arrays
 | # | Problem | Difficulty | Status |
 |---|---------|------------|--------|
-| 1 | [2D Array - DS](https://www.hackerrank.com/challenges/2d-array) | Easy | -- |
-| 2 | [Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation) | Easy | -- |
+| 1 | [2D Array - DS](https://www.hackerrank.com/challenges/2d-array) | Easy | done |
+| 2 | [Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation) | Easy | done |
 | 3 | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays) | Medium | -- |
 | 4 | [Array Manipulation](https://www.hackerrank.com/challenges/crush) | Hard | -- |
 | 5 | [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos) | Medium | -- |

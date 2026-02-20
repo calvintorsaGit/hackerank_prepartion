@@ -7,6 +7,9 @@ package com.prep.arrays;
  *
  * Rotate array left by d positions.
  * [1,2,3,4,5] rotated by 2 -> [3,4,5,1,2]
+ * 
+ * solution
+ * newArr[0] = oldArr[(0 + d ) % arr.length]
  *
  * Time:  O(n)
  * Space: O(n)
